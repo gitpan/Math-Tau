@@ -29,7 +29,7 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 =head1 VERSION
 
-version 0.001
+version 1.000
 
 =head1 SYNOPSIS
 
