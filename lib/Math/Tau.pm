@@ -1,9 +1,12 @@
-use strict;
-use warnings;
+# ABSTRACT: provide the important mathematical constant tau = 6.2831...
+
+# PODNAME: Math::Tau
 
 package Math::Tau;
 
-# ABSTRACT: provide the important mathematical constant tau = 6.2831...
+use strict;
+use warnings;
+
 use utf8;
 
 
@@ -23,13 +26,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 =head1 VERSION
 
-version 1.002
+version 1.003
 
 =head1 SYNOPSIS
 
@@ -48,15 +53,19 @@ tau is one of the most fundamental and misunderstood mathematical constants.
 
 See L<The Tau Manifesto|http://tauday.com/> for why pi is a historical mistake.
 
-=head1 METHODS
+=head1 CONSTANTS
 
-=head2 tau
+=over
+
+=item tau
 
 The mathematical constant 6.2831... as floating point.
 
-=head2 τ
+=item τ
 
 The Greek letter, for those of you who like to use Unicode identifiers.
+
+=back
 
 =head1 SEE ALSO
 
